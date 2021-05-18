@@ -136,7 +136,7 @@ open class Order(
     override fun hashCode(): Int = orderId!!.hashCode()
 
     companion object {
-        enum class Status {
+       enum class Status {
             /**
              * Placed, but not payed yet, still changable.
              */
